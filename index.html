@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Light Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="on()">Click me To On Bulb</button>
+    <img src="img/pic_bulboff.gif" alt="" id="image" width="200px" height="250px">
+    <button onclick="off()" >Click me To Off Bulb</button>
+    <script>
+function body(){
+    alert('Welcome Here')
+}
+
+function on(){
+  var img=document.getElementById('image');
+  var imgs=img.src='img/pic_bulbon.gif'
+  console.log(imgs);
+}
+function off(){
+    var img=document.getElementById('image');
+    var imgs=img.src='img/pic_bulboff.gif'
+    console.log(imgs);
+}
+
+    </script>
+</body>
+</html>

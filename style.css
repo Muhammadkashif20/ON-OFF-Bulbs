@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    position: relative;
+    top: 7rem;
+}
+button{
+    background-color: rgba(27, 145, 230, 0.926);
+    outline: none;
+    border: none;
+    padding:10px;
+    border-radius: .4rem;
+    color: white;
+    cursor: pointer;
+
+}
+button:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.683);
+}
